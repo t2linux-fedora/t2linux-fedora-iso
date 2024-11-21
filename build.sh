@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 set -e
 
-kickstarts=( "fedora-live-workstation" "fedora-live-kde" "fedora-live-sway" )
+kickstarts=( "fedora-atomic-silverblue" )
 
 mkdir -p /repo/builddir/iso
 builddir=$(mktemp -d -p "/repo/builddir"); export builddir
